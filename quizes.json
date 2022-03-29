@@ -1,0 +1,56 @@
+[
+    {
+        "question": "How many days do we have in a week?",
+        "choice1": "Eight",
+        "choice2": "Seven",
+        "answer": 2
+    },
+    {
+        "question": "How many days are there in a normal year?",
+        "choice1": "Three hundred and sixty five",
+        "choice2": "Four hundred",
+        "answer": 1
+    },
+    {
+        "question": "How many colors are there in a rainbow",
+        "choice1": "Seven",
+        "choice2": "Twenty two",
+        "answer": 1
+    },
+    {
+        "question": "Which animal is known as the Ship of the Desert?",
+        "choice1": "Cow",
+        "choice2": "Camel",
+        "answer": 2
+    },
+    {
+        "question": "How many letters are there in the English alphabet?",
+        "choice1": "Twenty six",
+        "choice2": "Thirty",
+        "answer": 1
+    },
+    {
+        "question": "How many sides are there in a triangle?",
+        "choice1": "Three",
+        "choice2": "Four",
+        "answer": 1
+    },
+    {
+        "question": "Which is the tallest animal on the earth?",
+        "choice1": "Elephant",
+        "choice2": "Giraffe",
+        "answer": 2
+    },
+    {
+        "question": "What is the top color in a rainbow?",
+        "choice1": "Yellow",
+        "choice2": "Red",
+        "answer": 2
+    },
+    {
+        "question": "Which is the principal source of energy for earth?",
+        "choice1": "Electricity",
+        "choice2": "Sun",
+        "answer": 2
+    }
+]

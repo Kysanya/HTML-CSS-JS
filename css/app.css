@@ -1,0 +1,149 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,800;1,200;1,400;1,700&display=swap');
+
+:root {
+  background-color: #e5f4e3;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1a1110;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #5da9e9;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #001011;
+  padding: 0.5rem;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* BUTTONS */
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #003f91;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #003f91;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(0.1rem);
+  transition: 150ms;
+}
+
+#flex-color {
+  width: 60%;
+  height: 60%;
+  margin-left: 0.65rem;
+  background-color: #6d326d;
+}
+
+#game {
+  width: 100%;
+  height: 60%;
+  background-color: #aed4f4;
+}
+
+.choice-container {
+  display: flex;
+  margin: 0 auto 0.5rem auto;
+  width: 95%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.answer-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  background: white;
+  border-bottom: 0.1rem solid rgb(86, 165, 235, 0.25);
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.correct {
+  background-color: #28a745;
+  font-size: 1.8rem;
+}
+
+.incorrect {
+  background-color: #dc3545;
+  font-size: 1.8rem;
+}
+
+#error {
+  font-size: 1.8rem;
+  margin: 0 auto 0.5rem auto;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick || Quiz</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column hidden">
+            <div class="choice-container">
+                <p>
+                <h2 id="quiz"></h2><input type="text" id="userInput" class="input" autofocus placeholder="Type your answer..."></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="answer-text" data-number="1"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="answer-text" data-number="2"></p>
+            </div>
+            <span id="error"></span>
+        </div>
+        <div id="flex-color" class="flex-center flex-column">
+            <a class="btn" onclick="checkAnswer()">Check Answer</a>
+            <a class="btn" id="go-home">Go Home</a>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
